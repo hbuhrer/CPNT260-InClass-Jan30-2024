@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+    font-size: 128px;
+    margin: 0;
+}
+
+header {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    background-image: url(https://picsum.photos/id/46/2000/1500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    transform: translate(0,-500%) !important;
+    min-height: 6vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    min-width: 30vh;
+    max-width: 40vh;
+}
+
+h1 {
+    font-family: 'Nabla', Arial, Helvetica, cursive;
+    font-size: clamp(64px, 10vw, 128px);
+    min-height: calc(100vh - 70px);
+    padding-top: 5vh;
+}
+
+p {
+    font-family: 'Nabla', Arial, Helvetica, cursive;
+    font-size: clamp(64px, 10vw, 128px);
+    min-height: calc(100vh - 70px);
+}
+
+footer {
+
+}
